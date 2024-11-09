@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # Load the pre-trained model
-model = load_model('E:/clg_project/dig/steamlit/mnist.h5')
+model = load_model('mnist.h5')
 
 # Title and description
 st.title("Handwritten Digit Recognition Web App")
