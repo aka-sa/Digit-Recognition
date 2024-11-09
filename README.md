@@ -1,2 +1,8 @@
-# Digit-Recognition
-This project is an interactive web application designed to recognize and predict handwritten digits (0-9) using a machine learning model
+title: Digit Recognizer
+emoji: ⚡
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.40.0
+app_file: app.py
+pinned: false
