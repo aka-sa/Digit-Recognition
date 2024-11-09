@@ -6,3 +6,4 @@ ultralytics
 pillow
 tensorflow
 streamlit-drawable-canvas
+opencv-python-headless
