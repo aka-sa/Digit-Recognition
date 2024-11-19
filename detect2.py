@@ -30,11 +30,7 @@ if canvas_result.image_data is not None:
     input_image = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
     grayscale = cv2.cvtColor(input_image, cv2.COLOR_BGR2GRAY)
     input_image_normalized = grayscale / 255.0
-    image_reshaped = np.reshape(input_image_normalized, [1, 28, 28])
-
-    # Get the model's prediction
-    input_prediction = model.predict(image_reshaped)
-    input_pred_label = np.argmax(input_prediction)
+    
 
     # Display the prediction with increased font size using HTML
     st.markdown(
