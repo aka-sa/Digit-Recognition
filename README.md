@@ -44,3 +44,7 @@ git clone https://github.com/your-username/digit-recognizer.git
 cd digit-recognizer
 pip install -r requirements.txt
 streamlit run app.py
+
+## 🎥 Demo Video
+
+📽️ [Click here to watch the demo video](demo.mp4)
