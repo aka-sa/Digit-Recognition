@@ -43,7 +43,7 @@ This is a Streamlit-based web app for recognizing digits from user-drawn input. 
 git clone https://github.com/your-username/digit-recognizer.git
 cd digit-recognizer
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run detect2.py
 ```
 ## 🎥 Demo Video
 
